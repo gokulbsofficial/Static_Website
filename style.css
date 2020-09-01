@@ -1,0 +1,30 @@
+.header1{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+#home{
+    padding-top:7em;
+}
+.page2{
+    padding-top: 5em;
+}
+.page3{
+    padding-top: 5em;
+}
+
+
+*{box-sizing:border-box}
+
+  
+.skills {
+    text-align: right; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: white; /* White text color */
+  }
+  
+  .html {width: 90%; background-color:  #4CAF50;} /* Green */
+  .css {width: 85%; background-color: #2196F3;} /* Blue */
+  .js {width: 80%; background-color: #f44336;} /* Red */
+  .bootstrap {width: 75%; background-color: #808080;}
