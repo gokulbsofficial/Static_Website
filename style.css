@@ -12,6 +12,20 @@
 .page3{
     padding-top: 5em;
 }
+.formgroup{
+    widows: 100%;
+}
+.btn{
+    width: 100%;
+}
+container1{
+    margin-left: 20rem;
+    margin-right: 20rem;
+    margin-top: 5rem;
+}
+.footer-pad{
+    margin-top: 1rem;
+}
 
 
 *{box-sizing:border-box}
