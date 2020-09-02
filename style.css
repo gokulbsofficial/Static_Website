@@ -3,6 +3,9 @@
     width: 100%;
     z-index: 1;
 }
+.scroll{
+    scroll-behavior: smooth;
+}
 #home{
     padding-top:7em;
 }
