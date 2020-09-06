@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="script.js">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     
 </head>
 <body>
@@ -54,10 +55,10 @@
         <div class="row align-items-center ">
             <div class="col-md-6">
 
-                <img src="IMG_20200625_094121-02-01.jpeg" alt="Responsive image" class="img-fluid rounded">
+                <img src=".image/IMG_20200625_094121-02-01.jpeg" alt="Responsive image" class="img-fluid rounded">
             </div>
             <div class="col-md-6">
-                <h4 class="  pt-4 pl-4">Be.Computer Science Engineering<br>Studing at Mar Ephream Clg of Engineering <br> Elavuvelai,Marthandam,TamilNadu.</h4>
+                <h4 class="  pt-4 pl-4">Be.Computer Science Engineering<br>Studing at Mar Ephream Clg of Engineering <br> Marthandam,TamilNadu.</h4>
                 <blockquote>
                     <p class="pl-4">"You are the average of 5 people you hang around"</p>
                     <footer class=" pl-4">- Gokul</footer>
@@ -116,7 +117,7 @@
   </div>
   <div class="container ml-20 mr-20 mt-5">
     <div>
-      <form action="https://formspree.io/gokulsreejith22002@gmail.com" method="POST">
+      <form id="gform" action="https://script.google.com/macros/s/AKfycbxgwQ82xUWUyJCGZTYtY0wxoVux7bs_wPj5ZQhLNKnxBnjYoSY/exec" method="POST">
         <div class="form-row">
           <div class="form-group col-md-12">
             <label for="inputEmail4">Name</label>
@@ -163,6 +164,24 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/4f7f0e7aa6.js" crossorigin="anonymous"></script>
+<script>
+  $("#gform").submit((e)=>{
+      e.preventDefault()
+      $.ajax({
+          url:"https://script.google.com/macros/s/AKfycbxgwQ82xUWUyJCGZTYtY0wxoVux7bs_wPj5ZQhLNKnxBnjYoSY/exec",
+          data:$("#gform").serialize(),
+          method:"post",
+          success:function (response){
+              alert("Form submitted successfully")
+              window.location.reload()
+              //window.location.href="https://google.com"
+          },
+          error:function (err){
+              alert("Something Error")
 
+          }
+      })
+  })
+</script>
 </body>
 </html>
