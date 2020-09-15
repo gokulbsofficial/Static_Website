@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="script.js">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     
 </head>
 <body>
@@ -82,7 +81,12 @@
 
     <p>CSS</p>
     <div class="container">
-    <div class="skills css">85%</div>
+    <div class="skills css">86%</div>
+    </div>
+
+    <p>MongoDB</p>
+    <div class="container">
+    <div class="skills mongo">83%</div>
     </div>
 
     <p>JavaScript</p>   
@@ -92,12 +96,13 @@
 
     <p>BootStrap</p>
     <div class="container">
-    <div class="skills bootstrap">75%</div>
+    <div class="skills bootstrap">78%</div>
     </div>
+
     </div>
     
     </div>
-</section>
+</section class="skillsfinisher">
 <section class="page3 col-md-12 col-12 " id="interest" >
         <div>
             <h4 class="text-center" >Interest</h4>
@@ -164,24 +169,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/4f7f0e7aa6.js" crossorigin="anonymous"></script>
-<script>
-  $("#gform").submit((e)=>{
-      e.preventDefault()
-      $.ajax({
-          url:"https://script.google.com/macros/s/AKfycbxgwQ82xUWUyJCGZTYtY0wxoVux7bs_wPj5ZQhLNKnxBnjYoSY/exec",
-          data:$("#gform").serialize(),
-          method:"post",
-          success:function (response){
-              alert("Form submitted successfully")
-              window.location.reload()
-              //window.location.href="https://google.com"
-          },
-          error:function (err){
-              alert("Something Error")
 
-          }
-      })
-  })
-</script>
 </body>
 </html>
