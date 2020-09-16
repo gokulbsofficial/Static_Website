@@ -8,12 +8,15 @@
 }
 #home{
     padding-top:7em;
+    padding-bottom: 3em;
 }
 .page2{
-    padding-top: 5em;
+    padding-top: 4em;
+    padding-bottom: 5em;
 }
 .page3{
-    padding-top: 5em;
+    padding-top: 4em;
+    padding-bottom: 5em;
 }
 .formgroup{
     widows: 100%;
@@ -26,9 +29,7 @@ container1{
     margin-right: 20rem;
     margin-top: 5rem;
 }
-.skillsfinisher{
-    margin-bottom: 5em;
-}
+
 .footer-pad{
     margin-top: 1rem;
 }
@@ -47,5 +48,11 @@ container1{
   .html {width: 90%; background-color:  #4CAF50;} /* Green */
   .css {width: 86%; background-color: #2196F3;} /* Blue */
   .js {width: 80%; background-color: #f44336;} /* Red */
-  .bootstrap {width: 78%; background-color: #808080;}
+  .bootstrap {width: 75%; background-color: #808080;}
   .mongo {width: 83%; background-color: aqua;}
+  
+  
+  
+.skil{
+    padding-top: 2em;
+  }

@@ -6,10 +6,12 @@
     <title>Gokul Sreejith</title>
     <link rel="logo" href="" type="image/gif" sizes="16x16">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="script.js" type="application/javascript">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     
-</head>
+    
+</head> 
 <body>
 <header class="header1 bg-info ">
     <div class="row text-white ">
@@ -73,8 +75,8 @@
     <div class="container">
         <h4 class="text-center" >Skills</h4>
     </div>
-    <div>
-    <p>HTML</p>
+    <div class="skil">
+    <p >HTML</p>
     <div class="container">
      <div class="skills html">90%</div>
     </div>
@@ -96,7 +98,7 @@
 
     <p>BootStrap</p>
     <div class="container">
-    <div class="skills bootstrap">78%</div>
+    <div class="skills bootstrap">75%</div>
     </div>
 
     </div>
@@ -112,59 +114,67 @@
 
 
 
-
-
-        </div>
+            
+        </div> 
 </section>
 <section id="contact" class="page3 bg-light">
-  <div>
+   <div>
     <h4 class="text-center">Contact</h4>
   </div>
   <div class="container ml-20 mr-20 mt-5">
-    <div>
-      <form id="gform" action="https://script.google.com/macros/s/AKfycbxgwQ82xUWUyJCGZTYtY0wxoVux7bs_wPj5ZQhLNKnxBnjYoSY/exec" method="POST">
-        <div class="form-row">
-          <div class="form-group col-md-12">
-            <label for="inputEmail4">Name</label>
-            <input type="text" name="name" class="form-control" id="inputEmail4" placeholder="Name">
-          </div>
-
-    <div class="form-group col-md-12 ">
-      <label for="inputEmail4">Email</label>
-      <input type="email" name="email" class="form-control" id="inputEmail4" placeholder="Email">
-    </div>
- 
-  <div class="form-group col-md-12 col-12">
-    <label for="inputAddress">Message</label>
-
     <div class="row">
-      <div class="container">
-    <textarea class="form-group col-md-12 " cols="30" rows="6" placeholder="Type your message here..."></textarea>
-  </div>
-</div>
-</div>
-  <button type="sent" value="sent" class="btn btn-primary">Submit</button>
-</form>
+        <div class="col-md-12 col-lg-12">
+            <form id="submit-form" action="https://formspree.io/mzbkpkpr" method="POST" >
+
+                <div class="form-group ">
+                    <label for="First_name">First Name</label>
+                    <input type="text" class="form-control" name="first_name" id="first_name" placeholder="First Name">
+                </div>
+
+                <div class="form-group ">
+                    <label for="Last_name">Last Name</label>
+                    <input type="text" class="form-control" name="last_name" id="first_name" placeholder="Last Name">
+                </div>
+
+                <div class="form-group">
+                    <label for="Email">Email Address</label>
+                    <input type="text" class="form-control" name="email" id="email" placeholder="Email Address">
+                </div>
+                <div class="form-group">
+                    <label for="inputAddress">Message</label>
+              
+                  <div class="row">
+                    <div class="container">
+                  <textarea class="form-group col-md-12 " cols="30" rows="6" placeholder="Type your message here..."></textarea>
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
     </div>
-  </div>
+</div>
 </section>
 <footer class="footer-pad bg-info">
-  <div class="container">
-<div class="row ">
-  <div class="col-md-12 text-white text-center">
-    <a class="fab fa-facebook-square bg-white" href="https://www.facebook.com/profile.php?id=100008754216234&id%3D100008754216234"><a>
-      <a class="fab fa-instagram bg-white " href="https://www.instagram.com/gokul_sreejith/"></a>
-       <p class=" text-secondary">&copy GokulSreejith.2020</p>
-  </div>
-</div> 
-
-  </div>
+    <div class="container">
+  <div class="row ">
+    <div class="col-md-12 text-white text-center">
+      <a class="fab fa-facebook-square bg-white" href="https://www.facebook.com/profile.php?id=100008754216234&id%3D100008754216234"><a>
+        <a class="fab fa-instagram bg-white " href="https://www.instagram.com/gokul_sreejith/"></a>
+         <p class=" text-secondary">&copy GokulSreejith.2020</p>
+    </div>
+  </div> 
+  
+    </div>
 </footer>
 
-
-
-
-
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
